@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 char test(char *c)
 {	
@@ -7,7 +8,8 @@ char test(char *c)
 }
 int main(void)
 {
-	char *t1 = "Hello";
-	char t2 = test(t1);
-	printf("%c",t2);
+	char *t1 = "-12345";
+	int t2 = atoi(t1);
+	printf("%d",t2);
+
 }

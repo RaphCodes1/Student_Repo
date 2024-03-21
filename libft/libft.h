@@ -17,4 +17,6 @@ char *ft_strstr(const char *haystack, const char *needle);
 /*CHARS*/
 int ft_toupper(int c);
 int ft_tolower(int c);
+/*INT*/
+int ft_atoi(const char *nptr);
 #endif
